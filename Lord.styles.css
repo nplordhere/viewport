@@ -312,11 +312,26 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    
+@media screen and (min-width: 1380px) {
     img{
         width: 300px;
         max-width: 300px;
     }
+}
+@media screen 
+and (min-width: 621px)
+and (max-width: 1379px) {
+    img {
+        width: 200px;
+        max-width: 200px;
+    }
+}
+@media screen and (max-width: 620px) {
+    img {
+        width: 500px;
+        max-width: 500px;
+    }
+}
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
